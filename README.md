@@ -35,7 +35,7 @@ This tool provides a convenient way to analyze AWS Bedrock model invocation logs
 
 2. Clone this repository:
    ```
-   git clone https://github.com/yourusername/aws-bedrock-logs-mcp.git
+   git clone https://github.com/dheerajoruganty/aws-bedrock-logs-mcp.git
    cd aws-bedrock-logs-mcp
    ```
 
