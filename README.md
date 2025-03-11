@@ -35,13 +35,18 @@ This tool provides a convenient way to analyze AWS Bedrock model invocation logs
 
 2. Clone this repository:
    ```
-   git clone https://github.com/dheerajoruganty/aws-bedrock-logs-mcp.git
-   cd aws-bedrock-logs-mcp
+   git clone https://github.com/dheerajoruganty/aws-bedrock-logs-mcp-server.git
+   cd aws-bedrock-logs-mcp-server
    ```
 
 3. Set up the Python virtual environment and install dependencies:
    ```
    uv venv && source .venv/bin/activate && uv pip sync pyproject.toml
+   ```
+
+   For Windows:
+   ```
+   uv venv && .venv\Scripts\activate && uv pip sync pyproject.toml
    ```
    
 4. Configure your AWS credentials:
